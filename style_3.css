@@ -1,0 +1,59 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(246, 242, 242);
+    line-height: 1.8em;
+}
+.pimg1{
+    background-image:url(assests/naruto.jpeg)  ;
+    min-height: 100%;
+}
+.pimg2{
+    background-image:url(assests/demon.jpg)  ;
+    min-height: 500px; 
+}
+.pimg3{
+    background-image:url(assests/black.jpeg)  ;
+    min-height: 500px; 
+}
+.pimg1,.pimg2,.pimg3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+.ptext{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50vh;
+   font-size: 34px;
+}
+.textbg{
+    background-color: #313534;
+    color: white;
+    padding: 10px  10px;
+}
+section {
+    padding: 50px  80px;
+    text-align: center;
+  
+}
+.section-light{
+    background-color: #313534;
+    color: white;
+
+}
+section.section-light p{
+    margin:  60px  60px;
+    text-align: justify;
+}
+
+
+ 
+ 

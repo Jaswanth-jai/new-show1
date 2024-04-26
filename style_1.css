@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 40px solid black;
+
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top-section {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-section h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.top-section H4 {
+    
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+}
+
+.img-container {
+    border-radius: 85px;
+    overflow: hidden;
+}
+
+.img-container img {
+
+    height: 320px;
+    width: 320px;
+}
+.about-section{
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.about-section h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+.wached-anime{
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.wached-anime h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.wached-anime ul{
+    margin-left: 50px;
+}
+
+.wached-anime ul li{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+ 
+}
+footer{
+    text-align: end;
+    font-size: 25px;
+    font-weight: 300;
+
+}
